@@ -74,6 +74,7 @@ f.close();
         if(usercreate.at(i).username == data.username){
             if(chusername == usercreate.at(i).username){ 
                 chusern = 1;
+                break;
             }
         }
         }
