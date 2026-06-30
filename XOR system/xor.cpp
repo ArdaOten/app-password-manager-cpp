@@ -552,12 +552,13 @@ class Manager{
             keymenu.UserMenu(data,wkeydata);
         }}
         if(!check){
-        std::cout << "Password Or Username Wrong!"; Sleep(1500); system("cls");
+        std::cout << "Password Or Username Wrong!"; Sleep(1500); system("cls"); break;
         }
-        }
-        }while(!check);
         std::cout << "Welcome!";
         Sleep(2000);
+        }
+        }while(!check);
+        system("cls");
     }
 };
 
