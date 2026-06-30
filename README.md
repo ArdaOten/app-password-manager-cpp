@@ -1,5 +1,3 @@
-# app-password-manager-cpp
-password-manager-cpp
 # Password Manager (C++)
 
 A console-based password manager built in C++ with user authentication, 
@@ -13,6 +11,14 @@ XOR encryption, and admin panel functionality.
 - Add, search, list, and delete saved credentials
 - Persistent file-based storage
 
+## Admin Panel
+The application includes a separate admin panel accessible with admin 
+credentials. Admins can:
+- View all registered users
+- Select a specific user account
+- Add, search, view, or delete that user's saved credentials
+- Delete a user and all their associated data permanently
+
 ## Tech Stack
 - C++ (OOP: classes, structs)
 - File I/O (fstream)
@@ -25,3 +31,4 @@ clear separation of concerns (account management, data storage, admin operations
 
 ## How to Run
 Compile with any C++ compiler (e.g., g++) and run the executable.
+
